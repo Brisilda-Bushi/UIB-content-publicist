@@ -1,0 +1,11 @@
+a {
+    filter: grayscale(1);
+}
+a:hover {
+    filter: none;
+}
+h2:hover {
+    background-color: red;
+    color: white;
+    width: 300px;
+}
