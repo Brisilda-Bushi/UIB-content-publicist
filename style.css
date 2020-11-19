@@ -3,14 +3,20 @@ a {
 }
 a:hover {
     filter: none;
-    transform: scale(2);
     transition: 1s;
+    position: sticky;
 }
 h2:hover {
     background-color: red;
     color: white;
     width: 300px;
+    transition: 1s;
 }
 ul{
     list-style: none;
+}
+iframe{
+    float: right;
+    margin-right: 30%;
+    position: fixed;
 }
